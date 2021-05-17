@@ -4,8 +4,9 @@
   "description": "",
   "main": "sample.js",
   "scripts": {
-    "test": "jest",
-    "lint": "npx eslint . --ext .js"
+    "test": "npx standard && npx jest",
+    "lint": "npx eslint . --ext .js",
+    "lint-fix": "npx eslint --fix . --ext .js"
   },
   "repository": {
     "type": "git",
@@ -19,7 +20,10 @@
   "homepage": "https://github.com/EthanWadsworth/Sample-CI-CD#readme",
   "devDependencies": {
     "eslint": "^7.26.0",
+    "eslint-config-airbnb-base": "^14.2.1",
     "eslint-config-google": "^0.14.0",
-    "jest": "^26.6.3"
+    "eslint-plugin-import": "^2.23.2",
+    "jest": "^26.6.3",
+    "standard": "^16.0.3"
   }
 }
