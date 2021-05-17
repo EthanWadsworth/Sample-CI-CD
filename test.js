@@ -1,0 +1,1 @@
+const str = "sample ci cd!";
