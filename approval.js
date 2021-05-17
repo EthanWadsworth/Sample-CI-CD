@@ -1,1 +1,3 @@
-const msg = "testing the approval workflow!";
+const msg = 'testing the approval workflow!';
+
+console.log(msg);
