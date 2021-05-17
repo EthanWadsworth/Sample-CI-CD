@@ -10,6 +10,12 @@ on:
     branches: [ main ]
 
 jobs:
+  eslint:
+    runs-on: ubuntu-latest
+    stesp:
+      - uses: actions/checkout@v1
+      - uses: stefanoeb/eslint-action@1.0.2
+      
   build:
 
     runs-on: ubuntu-latest
@@ -27,5 +33,4 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - run: npm ci
     - run: npm run build --if-present
-    - run: eslint . --ext .js
     - run: npm test
