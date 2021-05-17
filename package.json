@@ -1,0 +1,23 @@
+{
+  "name": "sample-ci-cd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EthanWadsworth/Sample-CI-CD.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EthanWadsworth/Sample-CI-CD/issues"
+  },
+  "homepage": "https://github.com/EthanWadsworth/Sample-CI-CD#readme",
+  "devDependencies": {
+    "eslint": "^7.26.0",
+    "eslint-config-google": "^0.14.0"
+  }
+}
