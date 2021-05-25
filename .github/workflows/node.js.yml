@@ -32,8 +32,8 @@ jobs:
     - name: Run ESLint
       run: npm run lint
     - run: npm test
+    - run: mkdir artifacts
     - name: Download build artifact
-      run: mkdir artifacts
       uses: actions/upload-artifact@master
       with:
         name: build-job
